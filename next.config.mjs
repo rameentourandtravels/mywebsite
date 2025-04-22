@@ -3,7 +3,7 @@ const nextConfig = {
     output: 'export',
     images: {
       unoptimized: true, 
-      domains: ['https://www.rameentourandtravels.com'],  
+      domains: ['www.rameentourandtravels.com','mywebsite-green-xi.vercel.app'],  
     },
   };
   
