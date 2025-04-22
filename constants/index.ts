@@ -3,6 +3,7 @@ export const LINKS = [
     title: 'home',
     path: 'home',
     offset: -50,
+
   },
   {
     title: 'Places',
@@ -36,17 +37,17 @@ export const FEATURE = [
   },
   {
     title: "Pahalgam",
-    URL: "/pahalgam.png",
+    URL: "/pahal.png",
     des: "Riverside charm",
   },
   {
     title: "Sonamarg",
-    URL: "/sonamarg.png",
+    URL: "/Sona.png",
     des: "Gateway to glaciers ",
   },
   {
     title: "Srinagar",
-    URL: "/srinagar.png",
+    URL: "/Srinagar.png",
     des: "Shikara rides",
   },
   {
@@ -56,7 +57,7 @@ export const FEATURE = [
   },
   {
     title: "Doodhpathri",
-    URL: "/doodhpathri.png",
+    URL: "/Doodh.png",
     des: "milky meadows",
   },
   {
