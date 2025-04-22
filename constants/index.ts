@@ -21,8 +21,8 @@ export const LINKS = [
   },
   {
     title: 'Contact Us',
-    path: '',
-    offset: -50,
+    path: 'contact',
+    offset: 100,
   },
 ]
 
@@ -31,37 +31,37 @@ export const LINKS = [
 export const FEATURE = [
   {
     title: "Gulmarg",
-    URL: "/gulmarg.jpg",
+    URL: "/gulmarg.png",
     des: "Ski slopes",
   },
   {
     title: "Pahalgam",
-    URL: "/pahalgam.jpg",
+    URL: "/pahalgam.png",
     des: "Riverside charm",
   },
   {
     title: "Sonamarg",
-    URL: "/sonamarg.jpg",
+    URL: "/sonamarg.png",
     des: "Gateway to glaciers ",
   },
   {
     title: "Srinagar",
-    URL: "/srinagar.jpg",
+    URL: "/srinagar.png",
     des: "Shikara rides",
   },
   {
     title: "Gurez Valley",
-    URL: "/Gurez.jpg",
+    URL: "/Gurez.png",
     des: "Mystic valley",
   },
   {
     title: "Doodhpathri",
-    URL: "/doodhpathri.jpg",
+    URL: "/doodhpathri.png",
     des: "milky meadows",
   },
   {
     title: "Yousmarg",
-    URL: "/Yousmarg.jpg",
+    URL: "/Yousmarg.png",
     des: "Peaceful trails",
   },
 ];
@@ -73,55 +73,55 @@ export const PACKAGES  = [
   {
     title: "Kashmir Honeymoon Delight",
     location: "kashmir",
-    price: "2700",
+    price: "45",
     URL: "/hh.png",
     des: "Romantic houseboat stay in Srinagar, shikara ride on Dal Lake, candlelight dinner, and scenic moments in Gulmarg.",
-    duration: "4 days",
+    duration: "Flexible",
     type: "honeymoon"
   },
   {
     title: "Family Retreat in Paradise",
     location: "kashmir",
-    price: "3000",
+    price: "63",
     URL: "/package2.png",
     des: "A perfect family getaway covering Srinagar, Sonamarg, and Pahalgam with guided tours, meals, and fun-filled activities for all ages.",
-    duration: "5 days",
+    duration: "Flexible",
     type: "family"
   },
   {
     title: "Adventure Trip with Friends",
     location: "kashmir",
-    price: "2500",
+    price: "37",
     URL: "/package3.png",
     des: "Experience an unforgettable adventure with friends in Kashmir. conquer the rapids while river rafting in Pahalgam",
-    duration: "4 days",
+    duration: "Flexible",
     type: "friends"
   },
   {
     title: "Budget Kashmir Escape",
     location: "kashmir",
-    price: "1600",
+    price: "80",
     URL: "/package4.png",
     des: "A budget-friendly trip covering top attractions in Srinagar and nearby places with local transport and cozy stays.",
-    duration: "3 days",
+    duration: "Flexible",
     type: "budget"
   },
   {
     title: "Luxury Kashmir Experience",
     location: "kashmir",
-    price: "4500",
+    price: "24",
     URL: "/the-khyber-himalayan.png",
     des: "Premium stay in luxury resorts, private cab, gourmet meals, guided tours, and exclusive cultural experiences.",
-    duration: "5 days",
+    duration: "Flexible",
     type: "luxury"
   },
   {
     title: "Solo Escape to Kashmir",
     location: "kashmir",
-    price: "1800",
+    price: "19",
     URL: "/package6.png",
     des: "Discover yourself with peaceful stays, nature walks, and exploration of hidden gems in a safe solo-friendly itinerary.",
-    duration: "3 days",
+    duration: "Flexible",
     type: "solo"
   }
 ];
@@ -195,7 +195,7 @@ export const FOOTER_LINKS = [
       {text:"About Us",link:"/about"},
       {text:"Book Now",link:"/booking"},
       {text:"FAQ",link:"/#faq"},
-      {text:"Privacy Policy",link:"/privacy-policy"},
+      {text:"Privacy Policy",link:"/policy"},
     ],
   },
   {

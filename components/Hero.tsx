@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import React from 'react';
 
 const Hero = () => {
@@ -27,12 +28,16 @@ const Hero = () => {
             Explore the beauty of Kashmir with customizable tour packages and local guides.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 pt-10">
+            <Link href={"/booking"}>
             <button className="bg-green-600 hover:bg-green-700 px-6 py-3 rounded-full text-white font-semibold transition">
               Book Your Tour
             </button>
+            </Link>
+            <Link href={"/#listing"}>
             <button className="border border-white px-6 py-3 rounded-full  font-semibold transition bg-white text-black">
               Explore Packages
             </button>
+            </Link>
           </div>
         </div>
       </div>

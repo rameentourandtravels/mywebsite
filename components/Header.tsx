@@ -52,11 +52,13 @@ const Header = () => {
         {/* icon & button */}
         <div className="flexCenter">
           <div className="hidden lg:block">
+          <Link href={"/booking"}>
             <Button
               type="button"
               title="Book Now"
               variant="btn_secondary_rounded"
             />
+            </Link>
           </div>
           {!menuOpened ? (
             <CgMenuRight

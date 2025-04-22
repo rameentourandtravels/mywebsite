@@ -16,6 +16,9 @@ const nunito = Nunito({
 export const metadata: Metadata = {
   title: "Rameen Tour & Travels",
   description: "Discover the beauty of Kashmir with Rameen Tour & Travels. Book houseboat stays, shikara rides, Gulmarg adventures, and custom honeymoon or family packages today.",
+  icons: {
+    icon: "/logo.svg", 
+  },
 };
 
 export default function RootLayout({

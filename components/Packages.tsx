@@ -30,7 +30,7 @@ const Packages = () => {
           </p>
         </div>
       <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 py-12">
-        {PACKAGES.map((elem) => (
+        {PACKAGES.map((elem,index) => (
           <PackageItem
             key={elem.URL}
             URL={elem.URL}
@@ -39,6 +39,7 @@ const Packages = () => {
             price={elem.price}
             des={elem.des}
             duration={elem.duration}
+            index={index}
           />
         ))}
       </div>
@@ -53,9 +54,10 @@ type PackageItem = {
   price: string;
   des: string;
   duration: string;
+  index:number;
 };
 
-const PackageItem = ({ URL, title, location, price, des, duration, }: PackageItem) => {
+const PackageItem = ({ URL, title, location, price, des, duration, index}: PackageItem) => {
   return (
     <div className="overflow-hidden rounded-tl-xl rounded-tr-xl  group">
       <Link href={'/booking'} className="overflow-hidden relative">
@@ -88,7 +90,7 @@ const PackageItem = ({ URL, title, location, price, des, duration, }: PackageIte
               <TbStarFilled />
               <TbStarHalfFilled />
             </div>
-            <span className="medium-16">(22)</span>
+            <span className="medium-16">{price}</span>
           </div>
           <div className="flexStart gap-2 text-gray-50">
             <RiTimeLine className="text-lg" />

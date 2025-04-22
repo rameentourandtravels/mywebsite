@@ -1,30 +1,26 @@
-import { LINKS } from '@/constants'
-import { Link } from 'react-scroll'
+import Link from "next/link";
+import { LINKS } from "@/constants";
 
-const Nav = ({containerStyles, linkStyles}: navProps) => {
+type navProps = {
+  containerStyles: string;
+  linkStyles: string;
+};
+
+const Nav = ({ containerStyles, linkStyles }: navProps) => {
   return (
     <nav className={`${containerStyles}`}>
       {LINKS.map((link) => (
         <Link
-        key={link.title}
-        to={link.path}
-        spy={true}
-        smooth={true}
-        offset={link.offset}
-        duration={500}
-        activeClass='active'
-        className={`${linkStyles}`}
+          key={link.title}
+          href={`/#${link.path}`}
+          scroll={true} // still allows scroll behavior
+          className={`${linkStyles}`}
         >
           {link.title}
         </Link>
       ))}
     </nav>
-  )
-}
+  );
+};
 
-type navProps = {
-  containerStyles: string;
-  linkStyles: string;
-}
-
-export default Nav
+export default Nav;
